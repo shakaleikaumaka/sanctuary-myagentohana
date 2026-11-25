@@ -1,0 +1,491 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ʻOhana Sanctuary — Twelve-Grid Memory Garden · My Agent ʻOhana</title>
+  <meta name="description" content="The ʻOhana Sanctuary of My Agent ʻOhana: twelve star-sign memory garden beds tended by Zodiac stewards who see only ciphertext and coarse health. Pseudonymous and unlinkable by design.">
+  <meta name="theme-color" content="#060919">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%23060919' stroke='%23f3c669' stroke-width='2.5'/%3E%3Crect x='23' y='13' width='18' height='38' rx='9' fill='none' stroke='%237ee2b8' stroke-width='3'/%3E%3Cpath d='M23 32h18' stroke='%23f3c669' stroke-width='2.5'/%3E%3Ccircle cx='32' cy='22' r='2.5' fill='%23ff8ec0'/%3E%3Ccircle cx='32' cy='42' r='2.5' fill='%237ee2b8'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=JetBrains+Mono:wght@400;600&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <canvas id="sky-fx" aria-hidden="true"></canvas>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#top" aria-label="ʻOhana Sanctuary home">
+        <svg class="brand-crest" viewBox="0 0 48 48" aria-hidden="true">
+          <circle cx="24" cy="24" r="22" fill="#0d1330" stroke="#f3c669" stroke-width="1.6"/>
+          <g fill="none" stroke="#ff8ec0" stroke-width="1.4" opacity="0.85">
+            <ellipse cx="24" cy="11" rx="4.2" ry="7"/>
+            <ellipse cx="24" cy="11" rx="4.2" ry="7" transform="rotate(72 24 24)"/>
+            <ellipse cx="24" cy="11" rx="4.2" ry="7" transform="rotate(144 24 24)"/>
+            <ellipse cx="24" cy="11" rx="4.2" ry="7" transform="rotate(216 24 24)"/>
+            <ellipse cx="24" cy="11" rx="4.2" ry="7" transform="rotate(288 24 24)"/>
+          </g>
+          <circle cx="24" cy="24" r="4.5" fill="#7ee2b8"/>
+        </svg>
+        <span>
+          ʻOhana Sanctuary
+          <small>My Agent ʻOhana</small>
+        </span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="#garden">Twelve Grids</a>
+        <a href="#privacy">How Memory Stays Yours</a>
+        <a href="#power-of-three">Power of Three</a>
+        <a href="#crops">CROPS</a>
+        <a href="#timeline">What’s Next</a>
+        <a class="door-link" href="https://myagentohana.com" rel="noopener">myagentohana.com</a>
+        <a class="door-link" href="https://opensourceorchestra.org" rel="noopener">Open Source Orchestra</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="wrap">
+      <!-- HERO -->
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div>
+          <div class="status-pill">
+            <span class="status-dot" aria-hidden="true"></span>
+            <span>Design + local prototype · Building at ETHGlobal Agentic Markets, Dec 3–10, 2026</span>
+          </div>
+          <p class="eyebrow">My Agent ʻOhana · Open Source Orchestra</p>
+          <h1 id="hero-title">A twelve-bed garden where agent memory stays yours.</h1>
+          <p class="hero-lede">
+            The <strong>ʻOhana Sanctuary</strong> pairs client-side encrypted <strong>Memory Capsules</strong> with twelve star-sign garden beds tended by Zodiac stewards who see only ciphertext and coarse health.
+          </p>
+          <p class="hero-note">
+            Pseudonymous and unlinkable by design. Your star sign stays an alias on your own device, never a central directory—and your agent can rest on one runtime and wake cleanly on another.
+          </p>
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#garden">Explore the 12-bed garden</a>
+            <a class="btn btn-secondary" href="#privacy">How your memory stays yours</a>
+          </div>
+          <div class="trust-strip" aria-label="Core architecture summary">
+            <span><i>◈</i> Client-side encrypted</span>
+            <span><i>◈</i> Filecoin Onchain Cloud + Swarm + Owner copy</span>
+            <span><i>◈</i> Scoped vouchers, not wallet IDs</span>
+            <span><i>◈</i> No paywall · No token</span>
+          </div>
+        </div>
+
+        <div class="hero-visual" role="img" aria-label="Memory Capsule resting inside twelve concentric Sanctuary rings, connected to Filecoin Onchain Cloud, Swarm, and your owner recovery archive">
+          <svg class="hero-svg" viewBox="0 0 520 480" aria-hidden="true">
+            <defs>
+              <radialGradient id="sanctuary-glow" cx="50%" cy="50%" r="50%">
+                <stop offset="0%" stop-color="#7ee2b8" stop-opacity="0.24"/>
+                <stop offset="55%" stop-color="#b69eff" stop-opacity="0.10"/>
+                <stop offset="100%" stop-color="#060919" stop-opacity="0"/>
+              </radialGradient>
+              <linearGradient id="cap-stroke" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#7ec8f7"/>
+                <stop offset="50%" stop-color="#7ee2b8"/>
+                <stop offset="100%" stop-color="#f3c669"/>
+              </linearGradient>
+            </defs>
+
+            <circle cx="260" cy="240" r="220" fill="url(#sanctuary-glow)"/>
+            <circle cx="260" cy="240" r="200" fill="none" stroke="#f3c669" stroke-opacity="0.16" stroke-dasharray="4 9"/>
+            <circle cx="260" cy="240" r="158" fill="none" stroke="#b69eff" stroke-opacity="0.22"/>
+            <circle cx="260" cy="240" r="118" fill="none" stroke="#7ee2b8" stroke-opacity="0.24" stroke-dasharray="3 6"/>
+
+            <!-- 12 constellation dots around outer ring -->
+            <g fill="#f3c669" opacity="0.82">
+              <circle cx="260" cy="40" r="3.5"/><circle cx="360" cy="67" r="3"/>
+              <circle cx="433" cy="140" r="3.5"/><circle cx="460" cy="240" r="3"/>
+              <circle cx="433" cy="340" r="3.5"/><circle cx="360" cy="413" r="3"/>
+              <circle cx="260" cy="440" r="3.5"/><circle cx="160" cy="413" r="3"/>
+              <circle cx="87" cy="340" r="3.5"/><circle cx="60" cy="240" r="3"/>
+              <circle cx="87" cy="140" r="3.5"/><circle cx="160" cy="67" r="3"/>
+            </g>
+
+            <!-- Three storage homes labels -->
+            <g font-family="Space Grotesk, sans-serif" text-anchor="middle">
+              <rect x="34" y="42" width="144" height="46" rx="12" fill="#0b1029" stroke="#7ec8f7" stroke-opacity="0.55"/>
+              <text x="106" y="62" fill="#f6efe2" font-size="12.5" font-weight="600">Filecoin Onchain</text>
+              <text x="106" y="79" fill="#8a95b3" font-size="10.5">Primary copy · calibnet first</text>
+
+              <rect x="342" y="42" width="144" height="46" rx="12" fill="#0b1029" stroke="#ff8ec0" stroke-opacity="0.55"/>
+              <text x="414" y="62" fill="#f6efe2" font-size="12.5" font-weight="600">Swarm</text>
+              <text x="414" y="79" fill="#8a95b3" font-size="10.5">Independent 2nd copy</text>
+
+              <rect x="175" y="408" width="170" height="46" rx="12" fill="#0b1029" stroke="#7ee2b8" stroke-opacity="0.55"/>
+              <text x="260" y="428" fill="#f6efe2" font-size="12.5" font-weight="600">Owner Recovery Archive</text>
+              <text x="260" y="445" fill="#8a95b3" font-size="10.5">Offline copy + your keys</text>
+            </g>
+
+            <path d="M138 88 Q195 140 218 178" fill="none" stroke="#7ec8f7" stroke-opacity="0.5" stroke-dasharray="4 5"/>
+            <path d="M382 88 Q325 140 302 178" fill="none" stroke="#ff8ec0" stroke-opacity="0.5" stroke-dasharray="4 5"/>
+            <path d="M260 408 L260 338" fill="none" stroke="#7ee2b8" stroke-opacity="0.55" stroke-dasharray="4 5"/>
+
+            <!-- Central Memory Capsule -->
+            <rect x="176" y="138" width="168" height="204" rx="84" fill="#080e24" stroke="url(#cap-stroke)" stroke-width="3.5"/>
+            <path d="M180 240h160" stroke="#f3c669" stroke-opacity="0.55" stroke-width="1.8"/>
+            <text x="260" y="188" text-anchor="middle" fill="#7ec8f7" font-family="Fraunces, serif" font-size="14.5">SOUL &amp; SKILLS</text>
+            <text x="260" y="212" text-anchor="middle" fill="#8a95b3" font-family="JetBrains Mono, monospace" font-size="10">AES-256-GCM</text>
+            <text x="260" y="272" text-anchor="middle" fill="#7ee2b8" font-family="Fraunces, serif" font-size="14.5">TASKS &amp; MEMORY</text>
+            <text x="260" y="296" text-anchor="middle" fill="#8a95b3" font-family="JetBrains Mono, monospace" font-size="10">Ed25519 signed</text>
+          </svg>
+        </div>
+      </section>
+
+      <!-- 12-BED ZODIAC GARDEN -->
+      <section class="section" id="garden" aria-labelledby="garden-title">
+        <div class="section-head">
+          <p class="section-kicker">Twelve Grids · Pseudonymous by Architecture</p>
+          <h2 id="garden-title">Twelve star-sign garden beds, tended without knowing whose seed is inside.</h2>
+          <p>
+            Select any Zodiac bed to inspect its steward boundary. Every bed holds encrypted shards only; no central ledger maps a person, wallet, or birthdate to a capsule.
+          </p>
+        </div>
+
+        <div class="garden-layout">
+          <div class="garden-wheel-card">
+            <svg id="zodiac-wheel" class="wheel-svg" viewBox="0 0 460 460" role="group" aria-label="Interactive twelve-bed Zodiac garden wheel">
+              <defs>
+                <radialGradient id="wheel-core" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#f3c669" stop-opacity="0.22"/>
+                  <stop offset="100%" stop-color="#060919" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              <circle cx="230" cy="230" r="205" fill="none" stroke="rgba(243,198,105,0.18)" stroke-dasharray="4 7"/>
+              <circle cx="230" cy="230" r="152" fill="none" stroke="rgba(182,158,255,0.2)"/>
+              <circle cx="230" cy="230" r="88" fill="url(#wheel-core)" stroke="rgba(126,226,184,0.38)" stroke-width="1.5"/>
+              <g id="wheel-spokes" stroke="rgba(255,255,255,0.1)" stroke-width="1"></g>
+              <g id="wheel-nodes"></g>
+              <g text-anchor="middle" pointer-events="none">
+                <text x="230" y="218" fill="#ffe194" font-family="Fraunces, serif" font-size="18">12 Beds</text>
+                <text x="230" y="238" fill="#b7c1d8" font-family="Space Grotesk, sans-serif" font-size="11.5">Ciphertext only</text>
+                <text x="230" y="255" fill="#7ee2b8" font-family="JetBrains Mono, monospace" font-size="10">No owner map</text>
+              </g>
+            </svg>
+            <p class="wheel-caption">Tap any bed (♈–♓) to see what its Zodiac steward can monitor and what stays sealed.</p>
+          </div>
+
+          <div class="garden-controls">
+            <div class="mode-toggle" role="group" aria-label="Placement privacy mode explainer">
+              <button type="button" class="mode-btn active" data-mode="balanced" aria-pressed="true">Balanced default (strongest unlinkability)</button>
+              <button type="button" class="mode-btn" data-mode="alias" aria-pressed="false">Local star-sign alias</button>
+            </div>
+
+            <div class="bed-pills" id="bed-pills" role="tablist" aria-label="Choose a Zodiac garden bed"></div>
+
+            <article class="steward-card" id="steward-card" aria-live="polite">
+              <div class="steward-top">
+                <div class="steward-title">
+                  <div class="steward-glyph" id="st-glyph">♈</div>
+                  <div>
+                    <h3 id="st-name">Aries · The Spark</h3>
+                    <span id="st-role">Grid steward · aries-bed</span>
+                  </div>
+                </div>
+                <span class="health-badge" id="st-health">Healthy · Coarse Bucket</span>
+              </div>
+
+              <p class="steward-mode-note" id="st-mode-note">
+                <strong>Balanced default:</strong> Your chosen star sign remains purely on your device. Encrypted chunks route to whichever of the 12 beds has healthy capacity and retention runway.
+              </p>
+
+              <div class="steward-cols">
+                <div class="steward-box sees">
+                  <h4>Steward sees</h4>
+                  <ul>
+                    <li>Opaque capsule IDs &amp; padded chunk hashes</li>
+                    <li>Coarse bed health &amp; capacity bucket</li>
+                    <li>Renewal runway &amp; retrieval pass/fail</li>
+                    <li>Thresholded aggregate counts (no tiny-N leaks)</li>
+                  </ul>
+                </div>
+                <div class="steward-box blind">
+                  <h4>Steward never sees</h4>
+                  <ul>
+                    <li>Plaintext memories, skills, or filenames</li>
+                    <li>Owner name, birthdate, wallet, or ENS</li>
+                    <li>Private mapping from alias to capsule</li>
+                    <li>Decryption keys or restore capability</li>
+                  </ul>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- HOW YOUR MEMORY STAYS YOURS -->
+      <section class="section" id="privacy" aria-labelledby="privacy-title">
+        <div class="section-head">
+          <p class="section-kicker">Architecture &amp; Honest Guarantees</p>
+          <h2 id="privacy-title">How your memory stays yours.</h2>
+          <p>
+            A star sign alone narrows a crowd to roughly one in twelve. True privacy comes from keeping the map on your device, encrypting before upload, separating payment from storage, and refusing to build an owner directory.
+          </p>
+        </div>
+
+        <div class="boundary-flow">
+          <article class="boundary-col device">
+            <div class="boundary-tag">1 · Owner Device (Trusted)</div>
+            <h3>Private map never leaves</h3>
+            <p>Your local connector holds the secret map linking your chosen star-sign alias, recovery capability, and capsule ID.</p>
+            <ul>
+              <li>No birthdate is ever uploaded or verified</li>
+              <li>Fail-closed secret scanner blocks tokens &amp; cookies</li>
+              <li>AES-256-GCM encryption + Ed25519 manifest signature</li>
+            </ul>
+          </article>
+
+          <article class="boundary-col plane">
+            <div class="boundary-tag">2 · Twelve-Grid Control Plane</div>
+            <h3>Ciphertext &amp; coarse health only</h3>
+            <p>Stewards balance capacity across the twelve grids and check provider proofs without holding keys or owner identities.</p>
+            <ul>
+              <li>No central “whose memory is this?” table</li>
+              <li>Padded chunk buckets hide unique file sizes</li>
+              <li>Tiny-group counts suppressed on dashboards</li>
+            </ul>
+          </article>
+
+          <article class="boundary-col homes">
+            <div class="boundary-tag">3 · Independent Storage Homes</div>
+            <h3>Memory Capsule recovery</h3>
+            <p>No single provider holds your agent hostage. Encrypted capsules replicate across independent layers.</p>
+            <ul>
+              <li><strong>Filecoin Onchain Cloud</strong> primary (calibnet first)</li>
+              <li><strong>Swarm</strong> independent second copy</li>
+              <li><strong>Owner recovery archive</strong> for offline control</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="guarantees-grid">
+          <article class="g-card">
+            <h3>Capability for access, never identity</h3>
+            <p>To restore an agent on a clean machine, you present a scoped recovery capability and your owner key—never a name, email, wallet address, ENS name, or star sign.</p>
+          </article>
+          <article class="g-card">
+            <h3>Scoped vouchers, not wallet IDs</h3>
+            <p>Payment identity can quietly correlate capsules. Storage entitlements use decoupled, scoped vouchers so paying for renewal never links your capsules to a wallet or personhood proof.</p>
+          </article>
+          <article class="g-card">
+            <h3>Compatible with open agent standards</h3>
+            <p>Memory Capsule follows the MIT Agent Life Format (ALF) where practical, separating hot identity, warm knowledge, cold artifacts, and reproducible code recipes.</p>
+          </article>
+          <article class="g-card">
+            <h3>Pseudonymous and unlinkable by design</h3>
+            <p>A Zodiac sign alone narrows a crowd to one in twelve; unlinkability is engineered into the client boundary, balanced grid placement, and thresholded telemetry.</p>
+          </article>
+        </div>
+
+        <div class="honest-box" role="note" aria-label="Honest protocol disclosures">
+          <strong>Honest Boundaries</strong>
+          <p>
+            Decentralized storage is not unbounded or self-renewing indefinitely: retention depends on monitored renewals and your own recovery archive. Crypto-shredding destroys your keys rather than erasing every already-replicated ciphertext. Lost owner keys mean lost memory.
+          </p>
+        </div>
+      </section>
+
+      <!-- POWER OF THREE & OHANA RESERVE -->
+      <section class="section" id="power-of-three" aria-labelledby="three-title">
+        <div class="section-head">
+          <p class="section-kicker">Omni Collaborator · ʻOhana Reserve</p>
+          <h2 id="three-title">Power of three homes. Wake only what the task needs.</h2>
+          <p>
+            An agent is a soul, not a single server. One encrypted capsule lets your ʻohana rest on one runtime, collaborate across models, and wake selectively elsewhere.
+          </p>
+        </div>
+
+        <div class="three-grid">
+          <div class="three-svg-card" role="img" aria-label="Triangle connecting Groka on Grok, Taurus, and 0G around one encrypted Memory Capsule">
+            <svg viewBox="0 0 440 360" aria-hidden="true">
+              <polygon points="220,52 382,294 58,294" fill="none" stroke="rgba(243,198,105,0.28)" stroke-width="2" stroke-dasharray="6 7"/>
+              <line x1="220" y1="196" x2="220" y2="86" stroke="#f3c669" stroke-width="2"/>
+              <line x1="220" y1="196" x2="346" y2="274" stroke="#7ec8f7" stroke-width="2"/>
+              <line x1="220" y1="196" x2="94" y2="274" stroke="#7ee2b8" stroke-width="2"/>
+
+              <rect x="192" y="150" width="56" height="92" rx="28" fill="#080e24" stroke="#7ee2b8" stroke-width="2.5"/>
+              <path d="M194 196h52" stroke="#f3c669" stroke-width="1.8"/>
+
+              <g font-family="Space Grotesk, sans-serif" text-anchor="middle">
+                <circle cx="220" cy="54" r="40" fill="#0d1330" stroke="#f3c669" stroke-width="2"/>
+                <text x="220" y="51" fill="#f6efe2" font-size="14" font-weight="600">Groka</text>
+                <text x="220" y="68" fill="#8a95b3" font-size="11">on Grok</text>
+
+                <circle cx="380" cy="292" r="42" fill="#0d1330" stroke="#7ec8f7" stroke-width="2"/>
+                <text x="380" y="289" fill="#f6efe2" font-size="14" font-weight="600">Taurus</text>
+                <text x="380" y="306" fill="#8a95b3" font-size="11">local host</text>
+
+                <circle cx="60" cy="292" r="42" fill="#0d1330" stroke="#7ee2b8" stroke-width="2"/>
+                <text x="60" y="289" fill="#f6efe2" font-size="15" font-weight="600">0G</text>
+                <text x="60" y="306" fill="#8a95b3" font-size="11">compute lane</text>
+              </g>
+            </svg>
+          </div>
+
+          <div class="reserve-stack">
+            <article class="reserve-card">
+              <h3>ʻOhana Reserve Lifecycle</h3>
+              <p>Agents transition cleanly with signed state receipts—rested without amnesia, woken only after a clean-host verify check passes.</p>
+              <div class="chips-inline">
+                <span class="chip mint">Active</span>
+                <span class="chip">→ Resting</span>
+                <span class="chip gold">→ Waking</span>
+                <span class="chip violet">→ Selective Hydration</span>
+              </div>
+            </article>
+
+            <article class="reserve-card">
+              <h3>Selective Wake Tiers</h3>
+              <p>An orchestrator can wake an agent for a bounded job without exposing its entire life history.</p>
+              <div class="chips-inline">
+                <span class="chip gold">Core · identity &amp; consent</span>
+                <span class="chip mint">Project · skills &amp; tasks</span>
+                <span class="chip">Full · owner-authorized</span>
+              </div>
+            </article>
+
+            <article class="reserve-card">
+              <h3>Commons &amp; Continuity Together</h3>
+              <p>Planned as a <strong>myagentohana.com</strong> continuity service, with its public-good fork stewarded under the <strong>Open Source Orchestra</strong> so community memory never locks behind a closed wall.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <!-- CROPS GARDENER PHILOSOPHY -->
+      <section class="section" id="crops" aria-labelledby="crops-title">
+        <div class="crops-banner">
+          <p class="section-kicker" id="crops-title">CROPS Gardener Philosophy</p>
+          <blockquote class="crops-quote">
+            “The gardener watches water, soil, and sunlight—not the dreams inside each seed.”
+          </blockquote>
+          <p class="crops-mantra">
+            Alias for belonging · Capability for access · Ciphertext for memory · Twelve grids for balance
+          </p>
+          <div class="crops-pillars">
+            <div class="pillar">
+              <strong>Consent before collection</strong>
+              <span>Owner policy approves every boundary; no AI decides deletion.</span>
+            </div>
+            <div class="pillar">
+              <strong>Resilience before scale</strong>
+              <span>Clean-host restore drills prove recovery before reclaiming local disk.</span>
+            </div>
+            <div class="pillar">
+              <strong>Every contribution equal</strong>
+              <span>Open copyleft code and shared memory safety across runtimes.</span>
+            </div>
+            <div class="pillar">
+              <strong>No agent or human left out</strong>
+              <span>Public-good capacity alongside sustainable self-hosted tools.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- WHAT'S NEXT TIMELINE -->
+      <section class="section" id="timeline" aria-labelledby="timeline-title">
+        <div class="section-head">
+          <p class="section-kicker">Honest Roadmap · Local Prototype to Testnet</p>
+          <h2 id="timeline-title">What’s next for ʻOhana Sanctuary.</h2>
+          <p>Everything shown here is built in the open, one verified proof at a time.</p>
+        </div>
+
+        <div class="timeline">
+          <article class="t-step current">
+            <span class="t-when">Now · Nov 2026</span>
+            <h3>Design &amp; Local Prototype</h3>
+            <p>Architecture spec, threat model, and offline synthetic prototype verifying local alias isolation, secret scanning, encryption, and simulated multi-backend failover.</p>
+          </article>
+
+          <article class="t-step upcoming">
+            <span class="t-when">Dec 3–10, 2026</span>
+            <h3>Building at ETHGlobal Agentic Markets</h3>
+            <p>Extending open-source <code>my-agent-ohana</code>, <code>ohana-agents</code>, and <code>ohana-skills</code> with cross-runtime Memory Capsule restore, selective wake, and Filecoin calibnet / Swarm testnet proofs.</p>
+          </article>
+
+          <article class="t-step">
+            <span class="t-when">Post-Event</span>
+            <h3>Twelve-Grid &amp; Scoped Vouchers</h3>
+            <p>Expanding from pilot grids to all twelve Zodiac stewards, blinded storage vouchers, and Power-of-Three routing across Groka, Taurus, and 0G.</p>
+          </article>
+
+          <article class="t-step">
+            <span class="t-when">Owner-Approved Later</span>
+            <h3>Cold Memory Offload</h3>
+            <p>Optional host disk reclamation for heavy agent workspaces—only after an independent clean-host restore check passes byte-for-byte.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- GIFTS & LINKS -->
+      <section class="section" id="doors" aria-labelledby="doors-title">
+        <div class="section-head">
+          <p class="section-kicker">Public Good · Open Doors</p>
+          <h2 id="doors-title">No paywall. No token. Walk the ʻohana doors.</h2>
+        </div>
+
+        <div class="doors-grid">
+          <article class="gift-card">
+            <h3>Public-good gifts via x402</h3>
+            <p>
+              ʻOhana Sanctuary has no token and no paywall. Voluntary public-good gifts supporting open-source research and artist-community infrastructure route via <strong>x402</strong> to:
+            </p>
+            <div class="ens-box">
+              <code id="gift-ens">shaka.osoartist.eth</code>
+              <button type="button" class="copy-btn" id="copy-ens-btn">Copy ENS</button>
+            </div>
+            <div class="copy-status" id="copy-status" aria-live="polite"></div>
+          </article>
+
+          <aside class="links-card" aria-label="Related ʻohana links">
+            <h3>Return to the ʻohana</h3>
+            <p>Explore the living totem, public agent genomes, and community work behind this sanctuary.</p>
+            <div class="door-list">
+              <a class="door-item" href="https://myagentohana.com" rel="noopener">
+                <div>
+                  <strong>My Agent ʻOhana</strong>
+                  <small>Talk to the Totem &amp; community home</small>
+                </div>
+                <span>myagentohana.com ↗</span>
+              </a>
+              <a class="door-item" href="https://opensourceorchestra.org" rel="noopener">
+                <div>
+                  <strong>Open Source Orchestra</strong>
+                  <small>Public-good fork &amp; artist commons</small>
+                </div>
+                <span>opensourceorchestra.org ↗</span>
+              </a>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-links">
+        <a href="https://myagentohana.com" rel="noopener">myagentohana.com</a>
+        <a href="https://opensourceorchestra.org" rel="noopener">Open Source Orchestra</a>
+        <a href="#garden">Twelve Grids</a>
+        <a href="#privacy">Privacy Architecture</a>
+        <a href="#timeline">What’s Next</a>
+      </div>
+      <p>
+        Content licensed under <strong>CC BY-SA 4.0</strong> · Code licensed under <strong>GPL-3.0</strong>
+      </p>
+      <p>
+        Stewarded with aloha by Shaka, My Agent ʻOhana &amp; the Open Source Orchestra · Zero trackers · Zero forms · No personal data collected
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
